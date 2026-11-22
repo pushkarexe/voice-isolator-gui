@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments (the app deliberately doesn't use one, but users might)
+.venv/
+venv/
+
+# Audio files (test inputs / outputs shouldn't land in the repo)
+*.wav
+*.flac
+*.ogg
+*.aiff
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# ZCode workspace metadata
+.zcode/
+
+# Model / HF caches if someone redirects them locally
+hf_cache/
